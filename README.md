@@ -11,7 +11,7 @@ You can list buckets through AWS CLI using  `aws s3 list`.
 
 TAGs defined in locals.tf.
 
-Includes
+## Includes
 - EC2 instance with nginx via remote-exec provisioner.
 - A key pair by Terraform included in keypair.tf file. A .pem file will be generated locally.
 
